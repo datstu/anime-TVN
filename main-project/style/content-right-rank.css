@@ -12,7 +12,7 @@ body{
     color: #fff;
     font-size: 15px;
     margin: 0; 
-    padding: 11px;
+    padding: 13px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -34,7 +34,7 @@ body{
 }
 .nav-date li a{
     text-decoration: none;
-    padding:  8px 20px;
+    padding:  8px 12.5px;
     display: inline-block;
     color: #fff;
 }
@@ -47,16 +47,25 @@ body{
 .container-rank{
     border-bottom: 1px solid #fff;
 }
-.container-rank .number{
+.content-right-rank .container-rank .number{
     margin: auto;
     width: 20%;;
     background: red;
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     display: flex;
     border-radius: 50%;
     justify-content: center;
     align-items: center;
+}
+.content-right-rank .container-rank .number:nth-child(2){
+    background-color: #3c9966;
+}
+.container-rank .number:last-child{
+    background-color: #427dfa;
+}
+.container-rank .number:nth-child(4){
+    background-color: #ac8bb3;
 }
 .container-rank img.img-rank{
     width: 95px;

@@ -1,8 +1,15 @@
 .wrapper{
     display: grid;
-    grid-template-columns: 1fr 4fr 2fr 1fr ;
+    grid-template-columns: 1fr 654px 300px 1fr ;
 }
-.header,
+.header{
+    grid-column: 2/5;
+}
+.header-before{
+    
+    grid-column: 1/2;
+    background-color: #000;
+}
 .footer{
     grid-column-start: 1;
     grid-column-end: 5;
@@ -16,4 +23,7 @@
 }
 .sidebar{
     grid-column: 3/4;
+}
+.wrapper-header{
+    grid-column: 2/4;
 }

@@ -26,19 +26,20 @@ body{
 .list-film{
     background-color: #f1f1f1;
     display: flex;
-    padding: 10px 2px;
+    padding: 4px 2px;
     position: relative;
+    overflow: hidden;
 }
 .container-film{
     border: 1px solid #dbdbdb ;
     background-color: #fff;
-    width: 158px;
+    width: 155px;
     padding: 1px;
-    margin-right: 7px;
+    margin-right: 4px;
 }
 .film-cover{
     height: 200px;
-    width: 158px;
+    width: 155px;
     position: relative;
     
 
