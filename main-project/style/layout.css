@@ -1,6 +1,7 @@
 .wrapper{
     display: grid;
     grid-template-columns: 1fr 654px 300px 1fr ;
+    background-color: #1b1b1b;
 }
 .header{
     grid-column: 2/5;
