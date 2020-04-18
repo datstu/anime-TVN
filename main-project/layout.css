@@ -1,0 +1,18 @@
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr 1fr ;
+}
+.header,
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.banner{
+    grid-column: 2/4;
+}
+.main{
+    grid-column: 2/3;
+}
+.sidebar{
+    grid-column: 3/5;
+}
