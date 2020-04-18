@@ -10,6 +10,15 @@ body{
     font-weight: 300;
     font-family: vini-copper;
     font-size: 24px;
+    position: relative;
+}
+.title-trailer  a{
+    display: inline-block;
+    color: #fff;
+    font-size: 17px;
+    padding-top: 2px;
+    position: absolute;
+    right: 30px;
 }
 .title-trailer span.star{
     display: inline-block;
