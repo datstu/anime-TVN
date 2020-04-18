@@ -4,9 +4,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 .contact{
-    
     height: 62px;
     padding: 5px;
+    background-repeat: no-repeat;
     width: 340px;
     background-image: url(https://scontent.fdad3-3.fna.fbcdn.net/v/t1.0-0/s350x350/82599602_109160127291630_8570980282847461376_o.jpg?_nc_cat=100&_nc_sid=dd9801&_nc_oc=AQkUQ3JeBZixnq2s_qAgAyZOfhS7_Z1u_k77PdhjweavzTjK5WUqrur_J98_OmqC3Gb6pkQ8qjJAMiA345bqFjpP&_nc_ht=scontent.fdad3-3.fna&_nc_tp=7&oh=8e64b0f40349f37c2db8dc7d26603f95&oe=5EBEF3D1);
 }
@@ -60,7 +60,7 @@ body{
     font-size: 12px;
 
 }
-.contact p{
+.contact-wrap p{
     padding: 0 7px;
     font-size: 12px;
     color: #4b4f56;
