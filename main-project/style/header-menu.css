@@ -3,16 +3,17 @@ body{
     padding: 0;
     margin: 0;
 }
-.wrapper-header{
+.wrapper{
     background-color: #000;
     color: #fff;
 }
-.header-1{
+.header{
     display: flex;
     margin-left: 10%;
-    height: 40px;
+    /* border:2px solid #000; */
+    
 }
-.search .search-button{
+.search-button{
     background-color: #276fe7;
     border-radius: 50%;
     width: 20px;
@@ -22,11 +23,11 @@ body{
     align-items: center;
     float: right;
 }
-.search .search-button img{
+.search-button img{
     
     width: 60%;
 }
-.search .search-txt{
+.search-txt{
     font-size: 16px;
     border: none;
     background: none;
@@ -37,7 +38,7 @@ body{
     width: 380px;
     
 }
-.header-1 .search{
+.search{
     background-color: #fff;
     border-radius: 20px;
     height: 14px;
@@ -48,8 +49,11 @@ body{
     margin-left: 10px;
 
 }
-
-.header-1 .member{
+.header-1{
+    height: 40px;
+    
+}
+.member{
     align-items: center;
     justify-content: center;
     display: flex;
@@ -58,22 +62,25 @@ body{
     font-size: 15px;
 }
 
-.header-2 .list{
+.list{
     display: flex;
     list-style: none;
     padding: 0;
     margin: 0;
     margin-left: 10%;
 }
-.header-2 .list li {
-    padding: 0 ;  
+.list li {
+    padding: 0 ;
+    
     text-transform: uppercase;
+   
+
 }
-.header-2 .list li:first-child {
+.list li:first-child {
     background-color:#339966 ;
     border:2px solid #1f5639;
 }
-.header-2 .list li a{
+.list li a{
     padding: 10px 5px;
     display: inline-block;
     color: #fff;
@@ -81,3 +88,8 @@ body{
     font-size: 15px;
 
 }
+
+
+/* #home{
+    background-color: #3c9966;
+} */
